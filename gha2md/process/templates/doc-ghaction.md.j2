@@ -1,20 +1,51 @@
-# {{ action.name }}
+{% set action_content = action.content %}
 
-{{ action.description }}
+{% macro redirect(level) -%}
+[{{ level }}]({{ "/".join(['..']*level) }}/README.md)
+{%- endmacro -%}
 
-{% if action.inputs %}
+{% for index in range(1, 4 ) -%}
+    / {{ redirect(index) }}
+{%- endfor %}
+
+# {{ action_content.name }}
+
+{{ action_content.description }}
+
+{% if action_content.inputs %}
 ## Inputs
-{% for item_key, item_value in action.inputs.items() %}
+
+{# 
+
+{% for item_key, item_value in action_content.inputs.items() %}
 * `{{ item_key }}`: {{ '**Required**' if item_value.required else '**Not Required**' }}. {{ item_value.description}}  
 {% endfor %}
-{% endif %}
+#}
 
-{% if action.outputs %}
+Name | Required | Description
+:-- | --- | :--
+{% for item_key, item_value in action_content.inputs.items() -%}
+`{{ item_key }}`| {{ '**Required**' if item_value.required else '**Not Required**' }} | {{ item_value.description}}  
+{% endfor -%}
+
+{%- endif %}
+
+{% if action_content.outputs %}
 ## Outputs
-{% for item_key, item_value in action.outputs.items() %}
+
+{# 
+{% for item_key, item_value in action_content.outputs.items() %}
 * `{{ item_key }}`: {{ item_value.description}}  
 {% endfor %}
-{% endif %}
+#}
+
+Name | Description
+:-- | :--
+{% for item_key, item_value in action_content.outputs.items() -%}
+`{{ item_key }}` | {{ item_value.description}}  
+{% endfor -%}
+
+{%- endif -%}
 
 ## Usage
 
@@ -25,4 +56,17 @@ Usage Example:
 
 ```
 
+{% if action.source_files -%}
+## Source Files
+{% for item in action.source_files -%}
+- [{{ item }}]({{ item }})
+{% endfor %}
+{%- endif -%}
+
+{% if action.additional_files -%}
+## Additional files
+{% for item in action.additional_files -%}
+- [{{ item }}]({{ item }})
+{% endfor %}
+{%- endif -%}
 

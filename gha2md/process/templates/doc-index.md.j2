@@ -1,0 +1,17 @@
+
+
+{% if groups -%}
+## Source Files
+{% for group in groups -%}
+{% if group.doc_items | length  > 0 -%}
+## [{{ group.relative_dir }}]({{ group.relative_dir }})
+
+File | Name | Description 
+:--|:--|:--
+{% for item in group.doc_items -%}
+{{ item.name }} | {{ item.content.name }} | {{ item.content.description }}
+{% endfor %}
+
+{%- endif -%}
+{% endfor %}
+{%- endif -%}
