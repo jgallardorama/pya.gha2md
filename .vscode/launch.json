@@ -1,0 +1,20 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Build",
+            "type": "python",
+            "request": "launch",
+            "module": "gha2md",
+            "args": [
+                "-vvvv",
+                "--configfile", "C:\\repos\\gh-itx\\iac-sisifodevblue\\gha2md.yaml",
+                "build",
+                "--source-dir", "C:\\repos\\gh-itx\\iac-sisifodevblue\\"
+            ]
+        }
+    ]
+}

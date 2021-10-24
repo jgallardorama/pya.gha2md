@@ -1,0 +1,80 @@
+2021-08-06 10:04:37,697 | cctemplate.cli | INFO | verbose 4
+2021-08-06 10:04:37,699 | cctemplate.cmd_create | DEBUG | Param source: .
+2021-08-06 10:04:37,699 | cctemplate.cmd_create | DEBUG | Param output: __output/
+2021-08-06 10:04:37,700 | cctemplate.cmd_create | DEBUG | Param filter: ('!**/.git', '!**/__pycache__', '!**/__output', '!*/tools', '!*/cookiecutter.json', '!*/legacy', '!*/run_build_cc.bat')
+2021-08-06 10:04:37,701 | cctemplate.cmd_create | DEBUG | Param map: ('gha2md:gha2md', 'gha2md:gha2md', 'JGR:JGR', 'javier.gallardo.rama@gmail.com:javier.gallardo.rama@gmail.com', 'gha2md:gha2md', 'https://github.com/jgallardorama/pya.gha2md:https://github.com/jgallardorama/pya.gha2md', 'JGR License:JGR License')
+2021-08-06 10:04:37,702 | cctemplate.cmd_create | INFO | walk_dir = .
+2021-08-06 10:04:37,702 | cctemplate.cmd_create | INFO | walk_dir (absolute) = C:\repos\others\repos_devops_star\pya.xyzapp
+2021-08-06 10:04:37,703 | cctemplate.cmd_create | INFO | --root = C:\repos\others\repos_devops_star\pya.xyzapp
+2021-08-06 10:04:37,705 | cctemplate.cmd_create | INFO | +[D] docs -> docs
+2021-08-06 10:04:37,707 | cctemplate.cmd_create | INFO | +[D] tests -> tests
+2021-08-06 10:04:37,708 | cctemplate.cmd_create | INFO | +[D] gha2md -> gha2md
+2021-08-06 10:04:37,709 | cctemplate.cmd_create | INFO | +[D] gha2md.egg-info -> gha2md.egg-info
+2021-08-06 10:04:37,711 | cctemplate.cmd_create | INFO | +[F] .gitignore C:\repos\others\repos_devops_star\pya.xyzapp\.gitignore -> __output/.\.gitignore
+2021-08-06 10:04:37,713 | cctemplate.cmd_create | INFO | +[F] .pypirc C:\repos\others\repos_devops_star\pya.xyzapp\.pypirc -> __output/.\.pypirc
+2021-08-06 10:04:37,717 | cctemplate.cmd_create | INFO | -[F] cookiecutter.json C:\repos\others\repos_devops_star\pya.xyzapp\cookiecutter.json
+2021-08-06 10:04:37,717 | cctemplate.cmd_create | INFO | +[F] LICENSE C:\repos\others\repos_devops_star\pya.xyzapp\LICENSE -> __output/.\LICENSE
+2021-08-06 10:04:37,729 | cctemplate.cmd_create | INFO | +[F] my_app.log C:\repos\others\repos_devops_star\pya.xyzapp\my_app.log -> __output/.\my_app.log
+2021-08-06 10:04:37,738 | cctemplate.cmd_create | INFO | +[F] Pipfile C:\repos\others\repos_devops_star\pya.xyzapp\Pipfile -> __output/.\Pipfile
+2021-08-06 10:04:37,740 | cctemplate.cmd_create | INFO | +[F] Pipfile.lock C:\repos\others\repos_devops_star\pya.xyzapp\Pipfile.lock -> __output/.\Pipfile.lock
+2021-08-06 10:04:37,742 | cctemplate.cmd_create | INFO | +[F] README.md C:\repos\others\repos_devops_star\pya.xyzapp\README.md -> __output/.\README.md
+2021-08-06 10:04:37,744 | cctemplate.cmd_create | INFO | +[F] README.rst C:\repos\others\repos_devops_star\pya.xyzapp\README.rst -> __output/.\README.rst
+2021-08-06 10:04:37,748 | cctemplate.cmd_create | INFO | +[F] run_build.bat C:\repos\others\repos_devops_star\pya.xyzapp\run_build.bat -> __output/.\run_build.bat
+2021-08-06 10:04:37,750 | cctemplate.cmd_create | INFO | -[F] run_build_cc.bat C:\repos\others\repos_devops_star\pya.xyzapp\run_build_cc.bat
+2021-08-06 10:04:37,750 | cctemplate.cmd_create | INFO | +[F] run_local.bat C:\repos\others\repos_devops_star\pya.xyzapp\run_local.bat -> __output/.\run_local.bat
+2021-08-06 10:04:37,753 | cctemplate.cmd_create | INFO | +[F] setup.py C:\repos\others\repos_devops_star\pya.xyzapp\setup.py -> __output/.\setup.py
+2021-08-06 10:04:37,755 | cctemplate.cmd_create | INFO | +[F] tox.ini C:\repos\others\repos_devops_star\pya.xyzapp\tox.ini -> __output/.\tox.ini
+2021-08-06 10:04:37,756 | cctemplate.cmd_create | INFO | --root = C:\repos\others\repos_devops_star\pya.xyzapp\docs
+2021-08-06 10:04:37,756 | cctemplate.cmd_create | INFO | +[F] README.rst C:\repos\others\repos_devops_star\pya.xyzapp\docs\README.rst -> __output/docs\README.rst
+2021-08-06 10:04:37,759 | cctemplate.cmd_create | INFO | --root = C:\repos\others\repos_devops_star\pya.xyzapp\tests
+2021-08-06 10:04:37,760 | cctemplate.cmd_create | INFO | +[D] files -> files
+2021-08-06 10:04:37,762 | cctemplate.cmd_create | INFO | +[F] my-directory-list.txt C:\repos\others\repos_devops_star\pya.xyzapp\tests\my-directory-list.txt -> __output/tests\my-directory-list.txt
+2021-08-06 10:04:37,765 | cctemplate.cmd_create | INFO | +[F] test_sample.py C:\repos\others\repos_devops_star\pya.xyzapp\tests\test_sample.py -> __output/tests\test_sample.py
+2021-08-06 10:04:37,768 | cctemplate.cmd_create | INFO | --root = C:\repos\others\repos_devops_star\pya.xyzapp\tests\files
+2021-08-06 10:04:37,769 | cctemplate.cmd_create | INFO | +[F] my-directory-list.txt C:\repos\others\repos_devops_star\pya.xyzapp\tests\files\my-directory-list.txt -> __output/tests\files\my-directory-list.txt
+2021-08-06 10:04:37,771 | cctemplate.cmd_create | INFO | +[F] sample.csv C:\repos\others\repos_devops_star\pya.xyzapp\tests\files\sample.csv -> __output/tests\files\sample.csv
+2021-08-06 10:04:37,772 | cctemplate.cmd_create | INFO | +[F] sample.json C:\repos\others\repos_devops_star\pya.xyzapp\tests\files\sample.json -> __output/tests\files\sample.json
+2021-08-06 10:04:37,774 | cctemplate.cmd_create | INFO | +[F] sample.xml C:\repos\others\repos_devops_star\pya.xyzapp\tests\files\sample.xml -> __output/tests\files\sample.xml
+2021-08-06 10:04:37,777 | cctemplate.cmd_create | INFO | +[F] sample.yaml C:\repos\others\repos_devops_star\pya.xyzapp\tests\files\sample.yaml -> __output/tests\files\sample.yaml
+2021-08-06 10:04:37,779 | cctemplate.cmd_create | INFO | --root = C:\repos\others\repos_devops_star\pya.xyzapp\gha2md
+2021-08-06 10:04:37,780 | cctemplate.cmd_create | INFO | +[D] other_commands -> other_commands
+2021-08-06 10:04:37,781 | cctemplate.cmd_create | INFO | +[F] cli.py C:\repos\others\repos_devops_star\pya.xyzapp\gha2md\cli.py -> __output/gha2md\cli.py
+2021-08-06 10:04:37,784 | cctemplate.cmd_create | INFO | +[F] cmd_csv.py C:\repos\others\repos_devops_star\pya.xyzapp\gha2md\cmd_csv.py -> __output/gha2md\cmd_csv.py
+2021-08-06 10:04:37,786 | cctemplate.cmd_create | INFO | +[F] cmd_json.py C:\repos\others\repos_devops_star\pya.xyzapp\gha2md\cmd_json.py -> __output/gha2md\cmd_json.py
+2021-08-06 10:04:37,788 | cctemplate.cmd_create | INFO | +[F] cmd_xml.py C:\repos\others\repos_devops_star\pya.xyzapp\gha2md\cmd_xml.py -> __output/gha2md\cmd_xml.py
+2021-08-06 10:04:37,790 | cctemplate.cmd_create | INFO | +[F] cmd_yaml.py C:\repos\others\repos_devops_star\pya.xyzapp\gha2md\cmd_yaml.py -> __output/gha2md\cmd_yaml.py
+2021-08-06 10:04:37,793 | cctemplate.cmd_create | INFO | +[F] command1.py C:\repos\others\repos_devops_star\pya.xyzapp\gha2md\command1.py -> __output/gha2md\command1.py
+2021-08-06 10:04:37,795 | cctemplate.cmd_create | INFO | +[F] command2.py C:\repos\others\repos_devops_star\pya.xyzapp\gha2md\command2.py -> __output/gha2md\command2.py
+2021-08-06 10:04:37,799 | cctemplate.cmd_create | INFO | +[F] config.py C:\repos\others\repos_devops_star\pya.xyzapp\gha2md\config.py -> __output/gha2md\config.py
+2021-08-06 10:04:37,801 | cctemplate.cmd_create | INFO | +[F] log_manager.py C:\repos\others\repos_devops_star\pya.xyzapp\gha2md\log_manager.py -> __output/gha2md\log_manager.py
+2021-08-06 10:04:37,803 | cctemplate.cmd_create | INFO | +[F] singleton.py C:\repos\others\repos_devops_star\pya.xyzapp\gha2md\singleton.py -> __output/gha2md\singleton.py
+2021-08-06 10:04:37,805 | cctemplate.cmd_create | INFO | +[F] version.py C:\repos\others\repos_devops_star\pya.xyzapp\gha2md\version.py -> __output/gha2md\version.py
+2021-08-06 10:04:37,808 | cctemplate.cmd_create | INFO | +[F] __init__.py C:\repos\others\repos_devops_star\pya.xyzapp\gha2md\__init__.py -> __output/gha2md\__init__.py
+2021-08-06 10:04:37,809 | cctemplate.cmd_create | INFO | +[F] __main__.py C:\repos\others\repos_devops_star\pya.xyzapp\gha2md\__main__.py -> __output/gha2md\__main__.py
+2021-08-06 10:04:37,812 | cctemplate.cmd_create | INFO | --root = C:\repos\others\repos_devops_star\pya.xyzapp\gha2md\other_commands
+2021-08-06 10:04:37,814 | cctemplate.cmd_create | INFO | +[F] command3.py C:\repos\others\repos_devops_star\pya.xyzapp\gha2md\other_commands\command3.py -> __output/gha2md\other_commands\command3.py
+2021-08-06 10:04:37,817 | cctemplate.cmd_create | INFO | +[F] __init__.py C:\repos\others\repos_devops_star\pya.xyzapp\gha2md\other_commands\__init__.py -> __output/gha2md\other_commands\__init__.py
+2021-08-06 10:04:37,818 | cctemplate.cmd_create | INFO | --root = C:\repos\others\repos_devops_star\pya.xyzapp\gha2md.egg-info
+2021-08-06 10:04:37,819 | cctemplate.cmd_create | INFO | +[F] dependency_links.txt C:\repos\others\repos_devops_star\pya.xyzapp\gha2md.egg-info\dependency_links.txt -> __output/gha2md.egg-info\dependency_links.txt
+2021-08-06 10:04:37,822 | cctemplate.cmd_create | INFO | +[F] entry_points.txt C:\repos\others\repos_devops_star\pya.xyzapp\gha2md.egg-info\entry_points.txt -> __output/gha2md.egg-info\entry_points.txt
+2021-08-06 10:04:37,824 | cctemplate.cmd_create | INFO | +[F] PKG-INFO C:\repos\others\repos_devops_star\pya.xyzapp\gha2md.egg-info\PKG-INFO -> __output/gha2md.egg-info\PKG-INFO
+2021-08-06 10:04:37,826 | cctemplate.cmd_create | INFO | +[F] requires.txt C:\repos\others\repos_devops_star\pya.xyzapp\gha2md.egg-info\requires.txt -> __output/gha2md.egg-info\requires.txt
+2021-08-06 10:04:37,828 | cctemplate.cmd_create | INFO | +[F] SOURCES.txt C:\repos\others\repos_devops_star\pya.xyzapp\gha2md.egg-info\SOURCES.txt -> __output/gha2md.egg-info\SOURCES.txt
+2021-08-06 10:04:37,833 | cctemplate.cmd_create | INFO | +[F] top_level.txt C:\repos\others\repos_devops_star\pya.xyzapp\gha2md.egg-info\top_level.txt -> __output/gha2md.egg-info\top_level.txt
+2021-08-06 10:05:09,819 | cctemplate.cli | INFO | verbose 4
+2021-08-06 10:05:09,822 | cctemplate.cmd_create | DEBUG | Param source: .
+2021-08-06 10:05:09,824 | cctemplate.cmd_create | DEBUG | Param output: __output/
+2021-08-06 10:05:09,825 | cctemplate.cmd_create | DEBUG | Param filter: ('!**/.git', '!**/__pycache__', '!**/__output', '!*/tools', '!*/cookiecutter.json', '!*/legacy', '!*/run_build_cc.bat')
+2021-08-06 10:05:09,825 | cctemplate.cmd_create | DEBUG | Param map: ('gha2md:gha2md', 'gha2md:gha2md', 'JGR:JGR', 'javier.gallardo.rama@gmail.com:javier.gallardo.rama@gmail.com', 'gha2md:gha2md', 'https://github.com/jgallardorama/pya.gha2md:https://github.com/jgallardorama/pya.gha2md', 'JGR License:JGR License')
+2021-08-06 10:05:09,827 | cctemplate.cmd_create | INFO | walk_dir = .
+2021-08-06 10:05:09,828 | cctemplate.cmd_create | INFO | walk_dir (absolute) = C:\repos\others\repos_devops_star\pya.xyzapp
+2021-08-06 10:05:09,828 | cctemplate.cmd_create | INFO | --root = C:\repos\others\repos_devops_star\pya.xyzapp
+2021-08-06 10:05:09,830 | cctemplate.cmd_create | INFO | +[D] docs -> docs
+2021-08-06 10:05:09,832 | cctemplate.cmd_create | INFO | +[D] tests -> tests
+2021-08-06 10:05:09,833 | cctemplate.cmd_create | INFO | +[D] gha2md -> gha2md
+2021-08-06 10:05:09,834 | cctemplate.cmd_create | INFO | +[D] gha2md.egg-info -> gha2md.egg-info
+2021-08-06 10:05:09,836 | cctemplate.cmd_create | INFO | +[F] .gitignore C:\repos\others\repos_devops_star\pya.xyzapp\.gitignore -> __output/.\.gitignore
+2021-08-06 10:05:09,837 | cctemplate.cmd_create | INFO | +[F] .pypirc C:\repos\others\repos_devops_star\pya.xyzapp\.pypirc -> __output/.\.pypirc
+2021-08-06 10:05:09,839 | cctemplate.cmd_create | INFO | -[F] cookiecutter.json C:\repos\others\repos_devops_star\pya.xyzapp\cookiecutter.json
+2021-08-06 10:05:09,839 | cctemplate.cmd_create | INFO | +[F] LICENSE C:\repos\others\repos_devops_star\pya.xyzapp\LICENSE -> __output/.\LICENSE
+2021-08-06 10:05:09,841 | cctemplate.cmd_create | INFO | +[F] my_app.log C:\repos\others\repos_devops_star\pya.xyzapp\my_app.log -> __output/.\my_app.log
