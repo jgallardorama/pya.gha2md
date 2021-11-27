@@ -52,15 +52,6 @@ def main_command(
 
 main_command.add_command(cmd_build.command)
 
-# TOREMOVE
-# main_command.add_command(command2.command)
-# main_command.add_command(command3.command)
-# main_command.add_command(cmd_xml.command)
-# main_command.add_command(cmd_yaml.command)
-# main_command.add_command(cmd_json.command)
-# main_command.add_command(cmd_csv.command)
-
-
 def start():
     main_command()
 

@@ -1,7 +1,7 @@
 
 
 {% if groups -%}
-## Source Files
+## Groups
 {% for group in groups -%}
 {% if group.doc_items | length  > 0 -%}
 ## [{{ group.relative_dir }}]({{ group.relative_dir }})
@@ -9,7 +9,7 @@
 File | Name | Description 
 :--|:--|:--
 {% for item in group.doc_items -%}
-{{ item.name }} | {{ item.content.name }} | {{ item.content.description }}
+{{ item.content.name }} | [{{ item.name_dir }}]({{ item.source_dir | replace("\\", "/") }}/README.md) | {{ item.content.description }}
 {% endfor %}
 
 {%- endif -%}

@@ -16,9 +16,8 @@ def command(source_dir):
     doc_project = DocProject(source_dir)
 
     logger.info("Running Scan")
-    parser.parse(doc_project, action_dirs)
+    parser.parse(doc_project, action_dirs)    
 
-    
     logger.info("Running Build")
     for doc_item in doc_project.items:
         logger.info(f"build documentation {doc_item.source_dir}")
